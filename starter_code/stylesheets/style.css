@@ -41,6 +41,7 @@ nav {
 }
 
 header {
+  
   div {
     display: flex;
     flex-direction: column;
@@ -96,6 +97,13 @@ header {
     img {
       width: 100%;
     }
+  }
+}
+@media (min-width: 768px){
+  header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -154,6 +162,14 @@ main {
       padding: 0;
     }
   }
+  @media (min-width: 768px){
+    .teams {
+      ul {
+        display: flex;
+        }
+      }
+    }
+  }
   span {
     color: #540b51;
     font-size: 200%;
@@ -190,6 +206,12 @@ main {
       border: 1px solid white;
     }
   }
+@media (min-width: 768px){
+  .try{
+    button {
+    width: 600px;
+    }
+  }
 }
 
 footer {
@@ -213,6 +235,7 @@ footer {
       }
     }
   }
+  
 
   hr {
     color: white;
@@ -231,3 +254,12 @@ footer {
     margin-top: 30px;
   }
 }
+@media (min-width: 768px){
+  footer{
+    .status {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+}
+
